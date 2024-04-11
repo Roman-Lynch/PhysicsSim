@@ -1,5 +1,5 @@
 public class EnvironmentFactory {
-    public Environment createEnvironment(String EnvironmentType, double height, double width, double wallElasticity) {
+    public Environment createEnvironment(String EnvironmentType, int height, int width, double wallElasticity) {
         if ("Earth".equals(EnvironmentType)) {
             return new Earth(height, width,wallElasticity);
         } else if ("Mars".equals(EnvironmentType)) {

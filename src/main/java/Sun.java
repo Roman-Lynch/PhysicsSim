@@ -1,3 +1,3 @@
 public class Sun extends Environment {
-    public Sun (double height, double width, double wallElasticity) { super(274, height, width, wallElasticity);}
+    public Sun (int height, int width, double wallElasticity) { super(274, height, width, wallElasticity);}
 }

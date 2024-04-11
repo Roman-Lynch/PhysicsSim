@@ -4,7 +4,7 @@ public class Environment {
     protected double width;
     protected double wallElasticity;
 
-    public Environment(double gravity, double height, double width, double wallElasticity)
+    public Environment(double gravity, int height, int width, double wallElasticity)
     {
         this.gravity = gravity;
         this.height = height;

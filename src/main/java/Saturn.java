@@ -1,3 +1,3 @@
 public class Saturn extends Environment {
-    public Saturn(double height, double width, double wallElasticity) { super(10.44, height, width, wallElasticity);}
+    public Saturn(int height, int width, double wallElasticity) { super(10.44, height, width, wallElasticity);}
 }

@@ -1,3 +1,3 @@
 public class Mercury extends Environment {
-    public Mercury (double height, double width, double wallElasticity) { super(3.7, height, width, wallElasticity);}
+    public Mercury (int height, int width, double wallElasticity) { super(3.7, height, width, wallElasticity);}
 }
